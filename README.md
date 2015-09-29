@@ -12,3 +12,6 @@ Usage example:
 tempracer.exe C:\ *.bat
 
 If successful it will inject the code to add the user "alex" with password "Hack123123" and add him to the local adminitrator group. It will also block the file for further changes, so our evil code stays inside. I will make create a dynamic version with different injects soon.
+
+Alexander Georgiev
+alexander.georgiev@daloo.de
