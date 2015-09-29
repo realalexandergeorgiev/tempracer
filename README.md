@@ -9,10 +9,15 @@ Race conditions are a pentesters friend. I found them pretty useful for privileg
 In my case I watched for *.bat file creation and tried to inject "add user" to it, so that my I would get local admin privs. 
 	
 Usage example:
+
 tempracer.exe C:\ *.bat
+
 Test it via:
+
 echo "test123" > C:\temp\not-evil.bat
+
 type C:\temp\not-evil.bat
+
 
 If successful it will inject the code to add the user "alex" with password "Hack123123" and add him to the local adminitrator group. It will also block the file for further changes, so our evil code stays inside. I will make create a dynamic version with different injects soon.
 
